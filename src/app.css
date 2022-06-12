@@ -1,0 +1,42 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+
+:root {
+  --display-2: 30px;
+  --display-3: 25px;
+  --rounded-1: 10px;
+  --rp-primary: hsl(0, 0%, 0%, 0.1);
+  --rp-time: 300;
+  --primary: 15, 100%, 76%;
+  --secondary: 201, 55%, 94%;
+  --z-overlay: 10;
+  --z-modal: 11;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 18px;
+}
+
+body {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  font-family: 'Comfortaa', cursive;
+}
+
+svg {
+  pointer-events: none;
+  width: 30px;
+  height: 30px;
+}
